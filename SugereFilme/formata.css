@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+background-image: url(./img/backgroundimg.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+main{
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+
+.inputs{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 4px solid #adf3aa;
+    border-radius: 35px;
+    padding: 30px;
+}
+.inputs h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.inputs input{
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 18px;
+    border: 2px solid #adf3aa;
+    background-color: #fff;
+}
+.inputs ul li{
+    list-style: none;
+    margin-top: 3px;
+}
